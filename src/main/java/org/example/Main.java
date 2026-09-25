@@ -6,7 +6,7 @@ public class Main {
 
         Clovek cl=new Clovek();
 
-        Clovek cl2=new Clovek("Pepa","Novak",20);
+        Clovek cl2=new Clovek("Pepa","Novak",17);
 
         System.out.println(cl2.getVek());
         System.out.println(cl2.jmenoPrijmeni());
@@ -20,6 +20,11 @@ public class Main {
         else
             System.out.println("je to dite");
 
-    }
 
+        Listek listek = new Listek();
+            System.out.println(listek.getcdosp());
+        System.out.println(listek.getCena(cl2));
+
+
+    }
 }
