@@ -15,7 +15,6 @@ public class Clovek {
         jmeno=jm;
         prijmeni=pjm;
         this.vek=vek;
-
     }
 
     public String getJmeno() {
